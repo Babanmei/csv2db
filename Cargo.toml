@@ -1,0 +1,15 @@
+[package]
+name = "csv2db"
+version = "0.1.0"
+authors = ["bernie <xiongyuanbiao01@renmaitech.com>"]
+edition = "2018"
+
+[dependencies]
+csv = "1.1"
+mysql = "19.0.1"
+toml = "0.5"
+serde = "1.0.104"
+serde_json = "1.0.44"
+serde_derive = "1.0.104"
+anyhow = "1.0.32"
+clap = {git = "https://github.com/clap-rs/clap.git", version = "3.0.0-beta.1", features = ["yaml"]}

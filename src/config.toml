@@ -1,0 +1,7 @@
+
+host = ""
+port = "4000"
+user = "root"
+pwd = "3"
+db = "test"
+tb = ""
